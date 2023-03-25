@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doc.Ru.Logic.TeaMachine", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logic", "Logic", "{309D9718-4745-4BAF-AD41-E3B403026BB6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doc.Ru.Logic.FourHats", "Doc.Ru.Logic.FourHats\Doc.Ru.Logic.FourHats.csproj", "{76B7C3BF-51FA-4032-B1B6-661A62FD1520}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{F7F49769-5798-4B9C-A19A-DF6307C0A940}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7F49769-5798-4B9C-A19A-DF6307C0A940}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7F49769-5798-4B9C-A19A-DF6307C0A940}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76B7C3BF-51FA-4032-B1B6-661A62FD1520}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76B7C3BF-51FA-4032-B1B6-661A62FD1520}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76B7C3BF-51FA-4032-B1B6-661A62FD1520}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76B7C3BF-51FA-4032-B1B6-661A62FD1520}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,6 +43,7 @@ Global
 		{BA4895A2-D6BF-42AC-8BDA-214B1168543A} = {309D9718-4745-4BAF-AD41-E3B403026BB6}
 		{CED610EE-EFBB-4000-BD4B-416B0F2DC43D} = {309D9718-4745-4BAF-AD41-E3B403026BB6}
 		{F7F49769-5798-4B9C-A19A-DF6307C0A940} = {309D9718-4745-4BAF-AD41-E3B403026BB6}
+		{76B7C3BF-51FA-4032-B1B6-661A62FD1520} = {309D9718-4745-4BAF-AD41-E3B403026BB6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E21E4461-2AB7-4B15-BC1B-CBADCEF6649B}
