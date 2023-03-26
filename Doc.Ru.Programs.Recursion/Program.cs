@@ -30,6 +30,8 @@ public class Program {
         Console.WriteLine($"Summ of orders: {result}");
     }
 
+    /*TODO Желательно переписать без использования string, 
+     так как очень много памяти и быстродействия тратится на это*/
     public static uint GetRecursionNumb(uint number) {
         
         uint result = number;
