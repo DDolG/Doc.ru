@@ -20,22 +20,55 @@ public class Program
     public static void Main(string[] args)
     {
         _distributorCoin = new AlgorithmDistributionCoinMin();
-        /*Console.WriteLine("Please, enter cents: ");
+        Console.WriteLine("Please, enter cents: ");
         var userInput = Console.ReadLine();
+        var coins = ConvertCentsToDifferentCoins(userInput);
+        Console.WriteLine($"Result coins: ");
+        coins.ToList().ForEach(x => Console.WriteLine($"{x.Key} : {x.Value}"));
+        Console.ReadLine();
+    }
+
+    public static Dictionary<string, uint> ConvertCentsToDifferentCoins(string userInput)
+    {
+        var userNumber = ConvertUserInputToCents(userInput);
+        var vallet = _distributorCoin.DistributeMoneyToCoins((uint)userNumber);
+        var results = Converters.ValletToDictionary(vallet);
+        return results;
+    }
+
+    private static uint ConvertUserInputToCents(string userInput)
+    {
         uint userNumber = 0;
+        var countAttemptToConvertNumber = 0;
+
+        try
+        {
+            var tmp = Convert.ToInt32(userInput);
+            userNumber = tmp > 0 ? (uint)tmp : 0;
+            return userNumber;
+        }
+        catch (FormatException ex)
+        { }
+
+        try
+        {
+            var tmp = Convert.ToDouble(userInput);
+            userNumber = tmp > 0 ? (uint)tmp : 0;
+            return userNumber;
+        }
+        catch (FormatException ex)
+        {}
+
         try
         {
             userNumber = Convert.ToUInt32(userInput);
+            return userNumber;
         }
         catch (FormatException ex)
-        {
-            Console.WriteLine("Can not convert cents to number");
-        }*/
-        var result = _distributorCoin.DistributeMoneyToCoins((uint)17);
+        { }
+
+        throw new ArgumentException("You enter string that can not convert to number");
         
-        //Console.WriteLine($"Summ of orders: {result}");
     }
-
-
 
 }

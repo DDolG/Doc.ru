@@ -13,4 +13,5 @@ public class Vallet
     
     [NumberOfCents(25)]
     public uint Quarters { get; set; }
+
 }
