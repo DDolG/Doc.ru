@@ -30,7 +30,7 @@ public class Program {
         Console.WriteLine($"Summ of orders: {result}");
     }
 
-    private static uint GetRecursionNumb(uint number) {
+    public static uint GetRecursionNumb(uint number) {
         
         uint result = number;
         var numberInString = number.ToString();
