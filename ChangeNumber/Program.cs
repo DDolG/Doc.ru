@@ -4,7 +4,6 @@
  * чтобы на выходе создать максимально возможное число.
  */
 
-using System.Linq;
 using System.Text;
 
 namespace Doc.Ru.Programs.ChangeNumber;
@@ -13,7 +12,7 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        Console.WriteLine("Please, please enter a positive integer: ");
+        Console.WriteLine("Please, please enter a positive integer number: ");
         var userInput = Console.ReadLine();
         uint userNumber = 0;
         try
