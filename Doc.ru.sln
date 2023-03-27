@@ -45,6 +45,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task 5", "Task 5", "{256594
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doc.Ru.Programs.Functions", "Doc.Ru.Programs.Function\Doc.Ru.Programs.Functions.csproj", "{9B3F8C74-B334-4686-B415-0687D90DD053}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL scripts", "SQL scripts", "{737D1A7B-876D-4C2E-8CB1-0E3F7686AFE7}"
+	ProjectSection(SolutionItems) = preProject
+		Task 1.sql = Task 1.sql
+		Task 2.sql = Task 2.sql
+		Task 3.sql = Task 3.sql
+		Task 4.sql = Task 4.sql
+		Task 5.sql = Task 5.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
