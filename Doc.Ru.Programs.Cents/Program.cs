@@ -19,7 +19,6 @@ public class Program
 
     public static void Main(string[] args)
     {
-        _distributorCoin = new AlgorithmDistributionCoinMin();
         Console.WriteLine("Please, enter cents: ");
         var userInput = Console.ReadLine();
         var coins = ConvertCentsToDifferentCoins(userInput);
@@ -31,7 +30,8 @@ public class Program
     public static Dictionary<string, uint> ConvertCentsToDifferentCoins(string userInput)
     {
         var userNumber = ConvertUserInputToCents(userInput);
-        var vallet = _distributorCoin.DistributeMoneyToCoins((uint)userNumber);
+        _distributorCoin = new AlgorithmDistributionCoinMin();
+        var vallet = _distributorCoin.DistributeMoneyToCoins(userNumber);
         var results = Converters.ValletToDictionary(vallet);
         return results;
     }
