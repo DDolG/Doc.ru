@@ -5,29 +5,33 @@ VisualStudioVersion = 17.5.33414.496
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Doc.Ru.Logic.TestTubes", "Doc.Ru.TestTubes\Doc.Ru.Logic.TestTubes.csproj", "{BA4895A2-D6BF-42AC-8BDA-214B1168543A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doc.Ru.Logic.Cards", "Doc.Ru.Cards\Doc.Ru.Logic.Cards.csproj", "{CED610EE-EFBB-4000-BD4B-416B0F2DC43D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Doc.Ru.Logic.Cards", "Doc.Ru.Cards\Doc.Ru.Logic.Cards.csproj", "{CED610EE-EFBB-4000-BD4B-416B0F2DC43D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doc.Ru.Logic.TeaMachine", "Doc.Ru.TeaAutomat\Doc.Ru.Logic.TeaMachine.csproj", "{F7F49769-5798-4B9C-A19A-DF6307C0A940}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Doc.Ru.Logic.TeaMachine", "Doc.Ru.TeaAutomat\Doc.Ru.Logic.TeaMachine.csproj", "{F7F49769-5798-4B9C-A19A-DF6307C0A940}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logic", "Logic", "{309D9718-4745-4BAF-AD41-E3B403026BB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doc.Ru.Logic.FourHats", "Doc.Ru.Logic.FourHats\Doc.Ru.Logic.FourHats.csproj", "{76B7C3BF-51FA-4032-B1B6-661A62FD1520}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Doc.Ru.Logic.FourHats", "Doc.Ru.Logic.FourHats\Doc.Ru.Logic.FourHats.csproj", "{76B7C3BF-51FA-4032-B1B6-661A62FD1520}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doc.Ru.Logic.Pils", "Doc.Ru.Logic.Pils\Doc.Ru.Logic.Pils.csproj", "{E89C54D7-5709-4176-97D7-31DE2E1DE460}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Doc.Ru.Logic.Pils", "Doc.Ru.Logic.Pils\Doc.Ru.Logic.Pils.csproj", "{E89C54D7-5709-4176-97D7-31DE2E1DE460}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Programs", "Programs", "{A9FA6DC2-BA75-4C93-BF2A-ACA68B787715}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doc.Ru.Programs.Recursion", "Doc.Ru.Programs.Recursion\Doc.Ru.Programs.Recursion.csproj", "{93C389C7-3EA8-4FF5-804E-5620E9143F6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Doc.Ru.Programs.Recursion", "Doc.Ru.Programs.Recursion\Doc.Ru.Programs.Recursion.csproj", "{93C389C7-3EA8-4FF5-804E-5620E9143F6D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task 1", "Task 1", "{2B11EE9B-CD2D-49EA-9645-0FAE1A26AE4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestRecursion", "UnitTestRecursion\UnitTestRecursion.csproj", "{2082A6CF-098C-48BB-8EE9-C681F5AFA8EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestRecursion", "UnitTestRecursion\UnitTestRecursion.csproj", "{2082A6CF-098C-48BB-8EE9-C681F5AFA8EE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task 2", "Task 2", "{EDDDD96B-D6BC-4D16-8990-154C2FF5860D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doc.Ru.Programs.Cents", "Doc.Ru.Programs.Cents\Doc.Ru.Programs.Cents.csproj", "{39ED93BD-CE32-4E63-85CE-348A3068AFBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Doc.Ru.Programs.Cents", "Doc.Ru.Programs.Cents\Doc.Ru.Programs.Cents.csproj", "{39ED93BD-CE32-4E63-85CE-348A3068AFBA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCents", "TestCents\TestCents.csproj", "{E7B0E823-8227-4523-98AF-17863ADCEA21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestCents", "TestCents\TestCents.csproj", "{E7B0E823-8227-4523-98AF-17863ADCEA21}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task3", "Task3", "{3D07E589-BB63-4C0B-BC05-815A8DADB13B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doc.Ru.Programs.ChangeNumber", "ChangeNumber\Doc.Ru.Programs.ChangeNumber.csproj", "{9C4E2BD1-1D6F-4919-B0FD-92BA16F88186}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,6 +75,10 @@ Global
 		{E7B0E823-8227-4523-98AF-17863ADCEA21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7B0E823-8227-4523-98AF-17863ADCEA21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7B0E823-8227-4523-98AF-17863ADCEA21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C4E2BD1-1D6F-4919-B0FD-92BA16F88186}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C4E2BD1-1D6F-4919-B0FD-92BA16F88186}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C4E2BD1-1D6F-4919-B0FD-92BA16F88186}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C4E2BD1-1D6F-4919-B0FD-92BA16F88186}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -87,6 +95,8 @@ Global
 		{EDDDD96B-D6BC-4D16-8990-154C2FF5860D} = {A9FA6DC2-BA75-4C93-BF2A-ACA68B787715}
 		{39ED93BD-CE32-4E63-85CE-348A3068AFBA} = {EDDDD96B-D6BC-4D16-8990-154C2FF5860D}
 		{E7B0E823-8227-4523-98AF-17863ADCEA21} = {EDDDD96B-D6BC-4D16-8990-154C2FF5860D}
+		{3D07E589-BB63-4C0B-BC05-815A8DADB13B} = {A9FA6DC2-BA75-4C93-BF2A-ACA68B787715}
+		{9C4E2BD1-1D6F-4919-B0FD-92BA16F88186} = {3D07E589-BB63-4C0B-BC05-815A8DADB13B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E21E4461-2AB7-4B15-BC1B-CBADCEF6649B}
