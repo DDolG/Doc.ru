@@ -10,7 +10,7 @@
 этого треугольника из переданного в функцию индекса 
 строки (начиная с индекса 1).
  */
-namespace Doc.Ru.Programs.ChangeNumber;
+namespace Doc.Ru.Programs.Pyramid;
 
 public class Program
 {
