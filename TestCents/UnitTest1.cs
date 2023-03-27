@@ -1,3 +1,4 @@
+using NUnit.Framework;
 using Doc.Ru.Programs.Cents;
 using ProgramCents = Doc.Ru.Programs.Cents.Program;
 
